@@ -179,3 +179,11 @@ For production deployment:
 4. Set up proper logging
 5. Configure CORS settings
 6. Use a production WSGI server like Gunicorn
+
+
+Demo Video :
+
+
+
+https://github.com/user-attachments/assets/45453a51-bb3e-4f02-aa56-18a5ece99a3a
+

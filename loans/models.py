@@ -73,9 +73,9 @@ class Customer(models.Model):
             score += 10
         
         # Approved volume factor (20% weight)
-        if total_approved_volume <= self.approved_limit * 0.5:
+        if total_approved_volume <= self.approved_limit * Decimal('0.5'):
             score += 20
-        elif total_approved_volume <= self.approved_limit * 0.8:
+        elif total_approved_volume <= self.approved_limit * Decimal('0.8'):
             score += 15
         else:
             score += 10
